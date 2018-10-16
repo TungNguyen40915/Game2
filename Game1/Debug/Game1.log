@@ -1,0 +1,57 @@
+﻿Build started 10/17/2018 12:17:45 AM.
+     1>Project "C:\Users\tung\Desktop\Game1 - Copy - Copy\Game1\Game1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp Enemy.cpp Game.cpp GameObject.cpp GamePlayStateOne.cpp GameState.cpp Graphics.cpp Simon.cpp Sprite.cpp StateManager.cpp main.cpp
+         main.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         StateManager.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Sprite.cpp
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\sprite.cpp(101): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\sprite.cpp(102): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\sprite.cpp(130): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\sprite.cpp(131): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\sprite.cpp(199): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+         Simon.cpp
+         Graphics.cpp
+         GameState.cpp
+         GameObject.cpp
+         Game.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Enemy.cpp
+         Animation.cpp
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(47): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(48): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(49): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(50): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(60): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(61): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(62): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(63): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(71): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\tung\desktop\game1 - copy - copy\game1\animation.cpp(84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         GamePlayStateOne.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tung\Desktop\Game1 - Copy - Copy\Debug\Game1.exe" /INCREMENTAL /NOLOGO d3dx9.lib d3d9.lib dxguid.lib dxerr.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\tung\Desktop\Game1 - Copy - Copy\Debug\Game1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tung\Desktop\Game1 - Copy - Copy\Debug\Game1.lib" /MACHINE:X86 Debug\Game1.res
+         Debug\Animation.obj
+         Debug\Enemy.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\GamePlayStateOne.obj
+         Debug\GameState.obj
+         Debug\GameTime.obj
+         Debug\Graphics.obj
+         Debug\Input.obj
+         Debug\main.obj
+         Debug\Simon.obj
+         Debug\Sprite.obj
+         Debug\StateManager.obj
+         Game1.vcxproj -> C:\Users\tung\Desktop\Game1 - Copy - Copy\Debug\Game1.exe
+     1>Done Building Project "C:\Users\tung\Desktop\Game1 - Copy - Copy\Game1\Game1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.88
